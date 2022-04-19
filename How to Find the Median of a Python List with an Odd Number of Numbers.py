@@ -29,3 +29,10 @@ print(in_order[4:5])
 
 #tag_range = in_order[4:5]
 #print(tag_range)
+
+
+sorted_list = sorted(sale_prices)
+num_of_sales = len(sorted_list)
+median = sorted_list[math.floor(num_of_sales/2):(math.floor (num_of_sales/2) + 1)]
+
+print(median)
