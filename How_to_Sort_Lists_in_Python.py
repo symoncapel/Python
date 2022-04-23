@@ -1,16 +1,17 @@
 tags = ['python', 'development', 'tutorials', 'code']
 print(tags)
 
-tags.sort()
+
+tags.sort() # sorts alphabetical
 print(tags)
 
-tags.sort(reverse=True)
+
+tags.sort(reverse = True) # sorts alphabetical in reverse
 print(tags)
 
-totals = [234, 1, 543, 2345]
-totals.sort()
-print(totals)
 
 totals = [234, 1, 543, 2345]
-totals.sort(reverse=True)
 print(totals)
+
+tags.totals()
+print(tags)
