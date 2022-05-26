@@ -1,0 +1,1 @@
+#a very high level understanding of what they do is they can store procedures and processes and then you can call those from any other part of your application.
