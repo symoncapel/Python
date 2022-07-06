@@ -28,7 +28,7 @@ from webbrowser import get
 
 student = {
     "name": "Symon",
-    "age": "33",
+    "age": 33,
     "major": "Engineer",
     "year": "2022",
     "classes": "4"
