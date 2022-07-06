@@ -45,15 +45,32 @@ student.update(gpa = 4.0)
 '''
 
 collegeStudent = {
-    "name": ["John", "Ben", "Gabe", "Austin"],
-    "age": "33",
-    "major": "Engineer",
-    "year": "2022",
-    "gpa": 4.0
+    "name": ["Charlie", "Tommy", "Angie", "James"],
+    "age": ["33"],
+    "major": ["Engineer"],
+    "year": ["2022"],
+    "gpa": [4.0]
 }
 
 collegeStudent ["name"] += ["Diana", "Jackie"]
 
-for name in collegeStudent.items():
-    sorted(name)
-    print(name)
+'''
+sorted_keys = collegeStudent.items()
+new_items = sorted(sorted_keys)
+print(new_items)
+'''
+
+for value in sorted(collegeStudent.items(), key=lambda x: x[0], reverse=False):
+
+
+    sorted(collegeStudent.keys())
+for key in sorted(collegeStudent.keys()) :
+    print(key , " : " , collegeStudent[key])
+
+'''
+my_result = dict()
+for key in sorted(collegeStudent):
+   my_result[key] = sorted(collegeStudent[key])
+
+print(my_result)
+'''
